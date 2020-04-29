@@ -7,7 +7,7 @@
         <%@include file="./resources/static/css/general.css"%>
     </style>
 </head>
-</html>
+<body>
     <%@ include file="partials/banner.jsp"%>
     <%@ include file="partials/side_nav.jsp"%>
 
@@ -42,3 +42,7 @@
         </c:otherwise>
 
     </c:choose>
+
+    <%@include file="partials/body-js.jsp"%>
+</body>
+</html>
